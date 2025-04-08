@@ -15,7 +15,7 @@ Welcome to an intelligent image classification project built with **Convolutiona
 ## 🖼️ Sample Images
 | Buildings | Forest | Street |
 |----------|--------|--------|
-| ![](docs/sample_building.jpg) | ![](docs/sample_forest.jpg) | ![](docs/sample_street.jpg) |
+| ![](intel-image-classification/inference/222.jpg) | ![](intel-image-classification/inference/143.jpg) | ![](intel-image-classification/inference/121.jpg) |
 
 ---
 
@@ -25,8 +25,9 @@ Welcome to an intelligent image classification project built with **Convolutiona
 ```bash
 git clone https://github.com/your-username/intel-image-classification.git
 cd intel-image-classification
+```
 
-🛠️ Tools & Libraries
+## 🛠️ Tools & Libraries
 - TensorFlow / Keras
 - TensorFlow.js
 - NumPy, Pandas
