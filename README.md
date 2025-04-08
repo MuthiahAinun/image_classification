@@ -35,7 +35,7 @@ cd intel-image-classification
 - OpenCV
 - scikit-learn
 
-## Structure Folder
+## 📂Structure Folder
 ```
 ├───intel-image-classification    # Dataset Folder
 │   ├───inference 
@@ -84,3 +84,11 @@ cd intel-image-classification
 ├───Proyek-Image-Classification.ipynb
 └───requirements.txt
 ```
+## **📊Classification Report:**
+- Akurasi total: 89%
+- Kinerja per kelas:
+1. Forest: performa terbaik (Precision: 96%, Recall: 98%)
+2. Buildings & Sea: cukup baik (F1-score sekitar 87–90%)
+3. Mountain & Glacier: performa lebih rendah (F1-score ~85–86%)
+4. Macro Avg F1-score: 89% (rata-rata antar kelas)
+5. Weighted Avg F1-score: 89% (mempertimbangkan jumlah data per kelas)
