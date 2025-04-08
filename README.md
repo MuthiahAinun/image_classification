@@ -34,3 +34,53 @@ cd intel-image-classification
 - Matplotlib
 - OpenCV
 - scikit-learn
+
+## Structure Folder
+```
+├───intel-image-classification    # Dataset Folder
+│   ├───inference 
+│   ├───test
+│   │   ├───buildings
+│   │   ├───forest
+│   │   ├───glacier
+│   │   ├───mountain
+│   │   ├───sea
+│   │   └───street
+│   ├───train
+│   │   ├───buildings
+│   │   ├───forest
+│   │   ├───glacier
+│   │   ├───mountain
+│   │   ├───sea
+│   │   └───street
+│   └───val
+│       ├───buildings
+│       ├───forest
+│       ├───glacier
+│       ├───mountain
+│       ├───sea
+│       └───street
+├───saved_model                  # Model Saved Folder
+|   ├───fingerprint.pb
+│   ├───saved_model.pb
+│   ├───assets
+│   └───variables
+|          variables.data-00000-of-00001
+│          variables.index
+├───tfjs_model                   # Model TensorFlow Js Folder
+|       group1-shard1of7.bin
+│       group1-shard2of7.bin
+│       group1-shard3of7.bin
+│       group1-shard4of7.bin
+│       group1-shard5of7.bin
+│       group1-shard6of7.bin
+│       group1-shard7of7.bin
+│       model.json
+├───tflite                       # Model TFLite Folder
+│   ├───cnn_model.tflite
+|   ├───label.txt
+├───cnn_model.h5
+├───README.md
+├───Proyek-Image-Classification.ipynb
+└───requirements.txt
+```
