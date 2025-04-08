@@ -1,6 +1,6 @@
 # 🧠 Intel Image Classification with CNN 🌐
 
-Welcome to an intelligent image classification project built with **Convolutional Neural Networks (CNN)** and deployed with **TensorFlow.js**! 🚀 This project can classify outdoor scene images like **buildings**, **mountains**, **forest**, and more using deep learning.
+Welcome to an image classification project built with **Convolutional Neural Networks (CNN)** and inference with **TensorFlow.Lite**! 🚀 This project can classify outdoor scene images like **buildings**, **mountains**, **forest**, and more using deep learning.
 
 ## 🌟 Features
 - Built with TensorFlow
